@@ -1,5 +1,5 @@
 # Machine Learning Assignments in Python
-I have translated the answers to the MATLAB/OCTAVE programming assignments to Python in order to understand how to apply Python to Machine Learning. I audited the [course](https://www.coursera.org/learn/machine-learning) from September 2017 to November 2017. Expected completion will be April 2018.
+I have translated the answers to the MATLAB/OCTAVE programming assignments to Python in order to understand how to apply Python to Machine Learning. I audited the [course](https://www.coursera.org/learn/machine-learning) from September 2017 to November 2017. Expected completion will be April 2019.
 
 ## Requirements
 * Python 3
