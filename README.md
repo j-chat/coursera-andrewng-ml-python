@@ -1,6 +1,17 @@
 # Machine Learning Assignments in Python
 I have translated the answers to the MATLAB/OCTAVE programming assignments to Python in order to understand how to apply Python to Machine Learning. I audited the [course](https://www.coursera.org/learn/machine-learning) from September 2017 to November 2017. Expected completion will be April 2019.
 
+## Notebook descriptions
+* coursera_andrewng_machinelearning_ex1.ipynb: uses linear regression to predict profits for a food truck. This is a regression problem since a real-value is predicted for the output.
+* coursera_andrewng_machinelearning_ex1_multi.ipynb: uses multiple linear regression to predict the prices of houses. This is a regression problem that uses multiple variables to predict a real-value for the output.
+* coursera_andrewng_machinelearning_ex2.ipynb: uses logistic regression to predict whether a student gets admitted into a university or not. This is a binary classification problem since there are two classes.
+* coursera_andrewng_machinelearning_ex2_reg.ipynb: uses regularized logistic regression to predict whether microchips from a fabrication plant passes or failed quality assurance. This is a binary classification problem since there are two classes.
+* coursera_andrewng_machinelearning_ex3.ipynb: uses logistic regression to recognize handwritten digits (from 0 to 9) with one-vs-all. This is a multi-class classification problem since there are multiple classes.
+* coursera_andrewng_machinelearning_ex3_nn.ipynb: uses neural networks to recognize handwritten digits (from 0 to 9) with forward propagation. This is a multi-class classification problem since there are multiple classes.
+* coursera_andrewng_machinelearning_ex4.ipynb: uses neural networks to recognize handwritten digits (from 0 to 9) with forward and backward propagations. This is a multi-class classification problem since there are multiple classes.
+* coursera_andrewng_machinelearning_ex5.ipynb: uses regularized linear regression is implemented to predict the amount of water ﬂowing out of a dam using the change of water level in a reservoir. This is a regression problem since a real-value is predicted for the output.
+* coursera_andrewng_machinelearning_ex6.ipynb: uses support vector machines to classify the positive and negative examples. This is a binary classification problem since there are two classes.
+
 ## Requirements
 * Python 3
 * Miniconda or Anaconda
@@ -17,6 +28,7 @@ jupyter
 numpy
 matplotlib
 scipy
+scikit-learn
 ```
 To install them, open the Anaconda Prompt and activate your virtual environment. 
 ```
@@ -29,6 +41,7 @@ Then type
 >conda install -c anaconda numpy
 >conda install -c conda-forge matplotlib
 >conda install -c anaconda scipy
+>conda install -c anaconda scikit-learn
 ```
 ### Jupyter Notebook Kernels
 ImportModule errors can occur if notebooks were ran in a kernel different from where the packages were installed. 
