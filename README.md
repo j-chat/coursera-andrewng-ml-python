@@ -11,6 +11,7 @@ I have translated the answers to the MATLAB/OCTAVE programming assignments to Py
 * coursera_andrewng_machinelearning_ex4.ipynb: uses neural networks to recognize handwritten digits (from 0 to 9) with forward and backward propagations. This is a multi-class classification problem since there are multiple classes.
 * coursera_andrewng_machinelearning_ex5.ipynb: uses regularized linear regression is implemented to predict the amount of water ﬂowing out of a dam using the change of water level in a reservoir. This is a regression problem since a real-value is predicted for the output.
 * coursera_andrewng_machinelearning_ex6.ipynb: uses support vector machines to classify the positive and negative examples. This is a binary classification problem since there are two classes.
+* coursera_andrewng_machinelearning_ex6_spam.ipynb: uses support vector machines to classify spam emails. This is a binary classification problem since there are two classes.
 
 ## Requirements
 * Python 3
@@ -29,6 +30,8 @@ numpy
 matplotlib
 scipy
 scikit-learn
+regex
+nltk
 ```
 To install them, open the Anaconda Prompt and activate your virtual environment. 
 ```
@@ -42,6 +45,8 @@ Then type
 >conda install -c conda-forge matplotlib
 >conda install -c anaconda scipy
 >conda install -c anaconda scikit-learn
+conda install -c conda-forge regex
+conda install -c anaconda nltk
 ```
 ### Jupyter Notebook Kernels
 ImportModule errors can occur if notebooks were ran in a kernel different from where the packages were installed. 
