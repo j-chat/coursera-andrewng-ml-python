@@ -12,6 +12,7 @@ I have translated the answers to the MATLAB/OCTAVE programming assignments to Py
 * coursera_andrewng_machinelearning_ex5.ipynb: uses regularized linear regression is implemented to predict the amount of water ﬂowing out of a dam using the change of water level in a reservoir. This is a regression problem since a real-value is predicted for the output.
 * coursera_andrewng_machinelearning_ex6.ipynb: uses support vector machines to classify the positive and negative examples. This is a binary classification problem since there are two classes.
 * coursera_andrewng_machinelearning_ex6_spam.ipynb: uses support vector machines to classify spam emails. This is a binary classification problem since there are two classes.
+* coursera_andrewng_machinelearning_ex7: uses K-means for image compression. This clustering problem reduces the number of colors to the top 16. 
 
 ## Requirements
 * Python 3
