@@ -14,6 +14,7 @@ I have translated the answers to the MATLAB/OCTAVE programming assignments to Py
 * coursera_andrewng_machinelearning_ex6_spam.ipynb: uses support vector machines to classify spam emails. This is a binary classification problem since there are two classes.
 * coursera_andrewng_machinelearning_ex7.ipynb: uses K-means to compress the image of a bird. This clustering problem reduces the number of colors to the top 16. 
 * coursera_andrewng_machinelearning_ex7_pca.ipynb: uses PCA to reduce the dimensions of a faces image dataset. This dimensionality reduction problem reduces the dimensions from 1024 to 100.
+* coursera_andrewng_machinelearning_ex8.ipynb: uses anomaly detection to identity failing servers on a network. 
 
 ## Requirements
 * Python 3
