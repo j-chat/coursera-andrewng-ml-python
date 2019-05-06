@@ -1,5 +1,5 @@
 # Machine Learning Assignments in Python
-I have translated the answers to the MATLAB/OCTAVE programming assignments to Python in order to understand how to apply Python to Machine Learning. I audited the [course](https://www.coursera.org/learn/machine-learning) from September 2017 to November 2017. Expected completion will be May 2019.
+I have translated the answers to the MATLAB/OCTAVE programming assignments to Python in order to understand how to apply Python to Machine Learning. I audited the [course](https://www.coursera.org/learn/machine-learning) from September 2017 to November 2017. 
 
 ## Notebook descriptions
 * coursera_andrewng_machinelearning_ex1.ipynb: uses linear regression to predict profits for a food truck. This is a regression problem since a real-value is predicted for the output.
@@ -15,6 +15,7 @@ I have translated the answers to the MATLAB/OCTAVE programming assignments to Py
 * coursera_andrewng_machinelearning_ex7.ipynb: uses K-means to compress the image of a bird. This clustering problem reduces the number of colors to the top 16. 
 * coursera_andrewng_machinelearning_ex7_pca.ipynb: uses PCA to reduce the dimensions of a faces image dataset. This dimensionality reduction problem reduces the dimensions from 1024 to 100.
 * coursera_andrewng_machinelearning_ex8.ipynb: uses anomaly detection to identity failing servers on a network. 
+* coursera_andrewng_machinelearning_ex8_cofi.ipynb: uses collaborative filtering to build a movie recommender system and make movie recommendations.
 
 ## Requirements
 * Python 3
